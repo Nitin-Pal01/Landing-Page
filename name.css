@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+} 
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    background-color: #000;
+}
+#nav{
+    height: 140px;
+    width: 100%;
+    background-color: rgb(13, 2, 2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+#nav-prt2{
+    display: flex;
+    align-items: center;
+    background-color: rgb(8, 8, 22);
+    width: 45%;
+    justify-content: space-evenly;
+}
+#nav h1{
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+#nav>i{
+    font-size: 20px;
+    color: white;
+}
+#nav h5{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: white;
+}
+#nav img{
+    height: 70px;
+}
+#line{
+    width: 60px;
+    height: 3px;
+    background-color: red;
+}
+#content{
+    height: 81% ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    /* color: black; */
+}
+#left{
+    width: 36%;
+    height: 100%;
+    padding: 100px 80px;
+    background-color: #000;
+}
+#right{
+    width: 36%;
+    height: 100%;
+     background-color: black;
+}
+#center{
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    padding-top: 100px;
+}   
+#left h1{
+    font-size: 35px;
+    line-height: 45px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 35px
+}
+#left h1 span{
+    color: red;
+    font-family: Monospace;
+}
+#left p{
+    font-size: 25px;
+    width: 90%;
+    color: white;
+}
+#left button{
+    background-color: red;
+    padding: 20px 40px;
+    border-radius: 30px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+#left button i{
+    margin-right: 20px;
+}
+#center-bg{
+    /* background-color: blue; */
+    height: 90%;
+    width: 100%;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+}
+#content>img{
+    height: 80%;
+    position: absolute;
+    left: 39%;
+    border-radius: 2500px;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    border-bottom-left-radius: 3000px;
+    border-bottom-right-radius: 900px;
+}
+#right h1{
+    color: white;
+    margin: 10%;
+    text-decoration: underline;
+    /* padding: 10%; */
+}
+#right p{
+    color: white;
+    font-size: 110%;
+    width: 85%;
+}
+#left h5{
+    color: white;
+    font-size:150% ;
+}
